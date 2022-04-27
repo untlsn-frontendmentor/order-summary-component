@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="/src/assets/style/global.css">
+    <link rel="stylesheet" href="uno.css">
+    <link rel="stylesheet" href="@unocss/reset/tailwind.css">
+  </head>
+  <body>
+    <main class="grid place-items-center bg-[#E0E8FF] h-screen">
+      <article class="bg-white w-110 text-center rounded-3xl overflow-hidden text-[#1C2D52] pb-10">
+        <img src="/src/assets/images/illustration-hero.svg" alt="dancing person" >
+        <div class="px-1/10 space-y-4 mt-8">
+          <h1 class="text-2xl font-bold">Order summary</h1>
+          <p class="opacity-60 font-500">
+            You can now listen to millions of songs, audiobooks, and podcasts on any
+            device anywhere you like!
+          </p>
+
+          <section class="bg-[#F8F9FE] flex gap-8 p-4 rounded-xl">
+            <img src="/src/assets/images/icon-music.svg" alt="music symbol">
+            <div class="flex-1 text-left">
+              <h1 class="font-bold">Annual Plan</h1>
+              <p>$59.99/year</p>
+            </div>
+            <button class="underline text-[#3F3888] font-bold opacity-transition">Change</button>
+          </section>
+
+          <button class="big-button text-white bg-[#382AE1] rounded-xl opacity-transition">Proceed to Payment</button>
+          <button class="big-button opacity-60 hocus:opacity-90 transition-opacity">Cancel Order</button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

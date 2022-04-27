@@ -1,0 +1,11 @@
+.big-button {
+  @apply block w-full font-bold p-4;
+}
+
+.opacity-transition {
+  @apply transition-opacity;
+}
+
+.opacity-transition:hover, .opacity-transition:focus {
+  @apply opacity-70;
+}
